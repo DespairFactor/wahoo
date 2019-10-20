@@ -48,7 +48,7 @@ function make_kernel {
 
 function move_images {
 		cp -vr $ZIMAGE_DIR/Image.lz4-dtb $REPACK_DIR/Image.lz4-dtb
-#		cp -vr $ZIMAGE_DIR/dtbo.img $REPACK_DIR/dtbo.img
+		cp -vr $ZIMAGE_DIR/dtbo.img $REPACK_DIR/dtbo.img
 }
 
 function make_zip {
