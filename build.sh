@@ -19,7 +19,7 @@ export LD_LIBRARY_PATH=${HOME}/android/clang/clang-r383902c/lib64:$LD_LIBRARY_PA
 DEFCONFIG="wahoo_defconfig"
 
 # Kernel Details
-VER=".V2P2"
+VER=".V3P2"
 
 # Paths
 KERNEL_DIR=`pwd`
